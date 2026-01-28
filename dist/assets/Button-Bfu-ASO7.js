@@ -1,0 +1,1 @@
+import{j as s}from"./index-B-ZUq_S_.js";const u=({btnClassName:a="",btnText:e="",btnIcon:o,btnType:l="button",onClick:r=()=>{},btnStyle:m,disabled:c=!1,isPending:t=!1})=>s.jsxs("button",{className:"comman-btn "+a,type:l,style:m,onClick:r,disabled:t||c,children:[o," ",t?s.jsx("div",{className:"loader"}):e]});export{u as B};

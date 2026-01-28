@@ -1,0 +1,373 @@
+.pricing-page-heading {
+    text-align: center;
+    padding: 24px 0 70px;
+}
+.pricing-page-heading-top h4 {
+    color: var(--color-838383);
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.pricing-page-heading-top h1 {
+    padding: 20px 0;
+    color: var(--black-color);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.pricing-page-heading-top p {
+    color: var(--color-838383);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.pricing-wrapper {
+    display: flex;
+}
+.pricing-box {
+    width: 25%;
+    border-top: 1px solid var(--E5E6E8-color);
+    border-bottom: 1px solid var(--E5E6E8-color);
+    background: var(--white-color);
+    padding: 40px 0 50px;
+    border-right: 1px solid var(--E5E6E8-color);
+    position: relative;
+}
+.pricing-box-day-content {
+    padding: 0 40px 40px;
+    display: flex;
+    align-items: baseline;
+    color: var(--color-838383);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    gap: 10px;
+    border-bottom: 1px solid var(--color-EFEFEF);
+}
+.pricing-box-day-content span {
+    color: var(--content-color);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+.pricing-content-bottom{
+    padding:40px 40px 0;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+}
+small.currency {
+    color: var(--color-838383);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.price span {
+    color: var(--content-color);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+.price span sup {
+    color: var(--content-color);
+    font-size: 20px;
+    font-weight: 900;
+    top: auto;
+    bottom: 30px;
+    right: -6px;
+}
+.pricing-content-bottom p {
+    color: var(--color-838383);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+    padding: 40px 0;
+}
+.price-box-btn button {
+    width: 100%;
+    justify-content: center;
+}
+.pricing-box-day {
+    position: relative;
+}
+.pricing-box.pricing-box3 {
+    background: linear-gradient(180deg, var(--color-F2FFCE) 0%, var(--common-blue-color) 69.51%);
+    border: 0 !important;
+}
+.pricing-box.pricing-box3 .pricing-box-day-content span {
+    color: var(--black-color);
+    font-weight: 900;
+}
+.pricing-box.pricing-box3 .pricing-box-day-content {
+    color: var(--content-color);
+}
+.pricing-box.pricing-box3 .pricing-box-day-content {
+    color: var(--content-color);
+    border-color: var(--black-color);
+}
+.pricing-box.pricing-box3 small.currency {
+    color: var(--content-color);
+}
+.pricing-box.pricing-box3 .price span {
+    color: var(--black-color);
+    font-weight: 900;
+}
+.pricing-box.pricing-box3 .pricing-content-bottom p {
+    color: var(--black-color);
+}
+.pricing-box.pricing-box3 .comman-btn {
+    background: var(--black-color);
+}
+.pricing.tag {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 41px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, var(--color-E4FF9C) 0%, var(--common-blue-color) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 15px;
+    color: var(--black-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+.pricing-box.pricing-box3 .pricing.tag {
+    gap: 6px;
+    background: var(--white-color);
+}
+span.offer-price {
+    color: var(--color-838383);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    position: relative;
+    margin-right: 20px;
+}
+span.offer-price:after {
+    position: absolute;
+    content: "";
+    background: var(--black-color);
+    width: 100%;
+    height: 2px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-13deg);
+}
+.pricing-offer {
+    position: absolute;
+    top: 0;
+}
+.pricing-offer img {
+    transform: rotate(90deg);
+    position: relative;
+    left: 49px;
+}
+.pricing-offer {
+    position: absolute;
+    top: -127px;
+    z-index: 3;
+    right: 140px;
+    color: var(--color-394D00);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+.pricing-gst-text {
+    text-align: center;
+    padding: 31px 0 50px;
+}
+.pricing-gst-text p {
+    color: var(--content-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+.pricing-gst-text button {
+    border-radius: 7px;
+    border: 1px solid var(--content-color);
+    background: var(--color-E5E5E5);
+    color: var(--content-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0;
+    padding: 11px 22px;
+    gap: 10px;
+}
+.pricing-gst-text button svg {
+    flex: 0 0 8px;
+    height: auto;
+    margin-top: 3px;
+}
+.pricing-what-do-heading {
+    padding: 0 30px 30px;
+    border-bottom: 1px solid var(--E5E6E8-color);
+}
+.pricing-what-do-heading h2 {
+    color: var(--black-color);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 15px;
+}
+.pricing-what-do-heading p {
+    color: var(--color-838383);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+.pricing-what-do-inner {
+    display: flex;
+    flex-flow: wrap;
+}
+.pricing-what-do-box {
+    width: 25%;
+    padding: 30px 50px;
+    border-right: 1px solid var(--E5E6E8-color);
+    border-bottom: 1px solid var(--E5E6E8-color);
+}
+.pricing-what-do-box-count {
+    border-radius: 5px;
+    border: 1px solid var(--common-blue-color);
+    background: var(--color-F8FFE6);
+    width: 50px;
+    height: 50px;
+    color: var(--black-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing-what-do-box h4 {
+    padding: 30px 0 10px;
+    color: var(--black-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    max-width: 90%;
+}
+.pricing-what-do-box p {
+    color: var(--color-383838);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.pricing-what-do-color-box {
+    position: relative;
+    background: linear-gradient(180deg, var(--color-CEECFF) 0%, var(--color-7EB7F8) 100%);
+    width: 50%;
+    padding: 26px 67px 26px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pricing-what-do-color-box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.pricing-what-do-color-box h4 {
+    color: var(--black-color);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+.pricing-what-do-color-box p {
+    color: var(--color-383838);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.student-say {
+    padding: 70px 36px 40px;
+}
+.student-say-heading {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+.student-say-heading h2 {
+    color: var(--black-color);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    max-width: 705px;
+}
+.student-say-heading p {
+    color: var(--color-383838);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 190%;
+    max-width: 625px;
+}
+.student-say-heading p strong {
+    color: var(--black-color);
+    font-weight: 900;
+}
+.student-say-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.student-say-box h4 {
+    color: var(--black-color);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    margin: 30px 0;
+}
+.student-say-box p {
+    color: var(--color-383838);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}

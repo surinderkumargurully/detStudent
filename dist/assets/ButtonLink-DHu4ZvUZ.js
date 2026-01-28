@@ -1,0 +1,1 @@
+import{j as r,L as a}from"./index-B-ZUq_S_.js";const i=({btnClassName:n="",btnText:t="",btnIcon:s,btnStyle:o,url:m})=>r.jsxs(a,{to:m,className:"comman-btn common-btn-link "+n,style:o,children:[s," ",t]});export{i as B};

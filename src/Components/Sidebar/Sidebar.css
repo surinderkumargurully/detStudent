@@ -1,0 +1,99 @@
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 00px;
+    z-index: 100;
+    padding: 30px 0;
+    width: 280px;
+    min-height: 100vh;
+    bottom: 0;
+    transition: all 0.4s;
+    overflow: unset;
+    min-height: calc(100vh - 30px);
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--E5E6E8-color);
+    background: var(--F0F1F5-color);
+}
+.logo {
+    margin-bottom: 10px;
+    padding: 0 30px;
+}
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px 30px 0px;
+    border-top: 1px solid var(--color-dfe9ff);
+}
+.sidebar nav::-webkit-scrollbar {
+  width: 4px;
+}
+.sidebar nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar nav::-webkit-scrollbar-thumb {
+  background: var(--color-888888);
+}
+.sidebar nav a svg path,
+.sidebar nav a svg rect{
+    stroke: var(--color-838383);
+    transition: all 0.4s;
+}
+.sidebar nav a svg circle{
+    fill: var(--color-838383);
+    transition: all 0.4s;
+}
+.sidebar nav a {
+    border-radius: 10px;
+    padding: 16px 20px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-838383);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    transition: all 0.4s;
+    position: relative;
+}
+.sidebar nav a.active {
+    border-color: var(--E5E6E8-color);
+    background: var(--white-color);
+    color: var(--content-color);
+}
+.sidebar nav a.active svg path,
+.sidebar nav a.active svg rect{
+    stroke: var(--content-color);
+    transition: all 0.4s;
+}
+.sidebar nav a.active svg circle{
+    fill: var(--content-color);
+    transition: all 0.4s;
+}
+a.voucher-menu {
+    margin-top: 15px;
+}
+a.voucher-menu:after {
+    position: absolute;
+    content: "";
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--E5E6E8-color);
+}
+.sidebar nav a.active:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+    background: var(--content-color);
+    left: -31px;
+}
